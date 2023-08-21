@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 974:
+/***/ 168:
 /***/ ((module) => {
 
 module.exports = eval("require")("@actions/core");
@@ -9,7 +9,7 @@ module.exports = eval("require")("@actions/core");
 
 /***/ }),
 
-/***/ 229:
+/***/ 698:
 /***/ ((module) => {
 
 module.exports = eval("require")("@actions/github");
@@ -66,8 +66,8 @@ module.exports = require("fs");
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-const core = __nccwpck_require__(974);
-const github = __nccwpck_require__(229);
+const core = __nccwpck_require__(168);
+const github = __nccwpck_require__(698);
 const fs = __nccwpck_require__(147);
 
 async function run() {
