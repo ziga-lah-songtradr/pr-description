@@ -18,6 +18,9 @@ inputs:
   token:
     description: GitHub secrets access token.
     required: true
+  prNumber:
+    description: GitHub pull request number
+    required: false
 
 runs:
   using: node16
